@@ -31,10 +31,7 @@ export class LoginPage {
         await this.page.getByLabel('Close').click();
     }
 
-    async clickOnFrom(from:string) {
-        await this.loginPageLocators.FROM_LOCATION.click()
-        await this.loginPageLocators.ENTER_SOURCE.fill(from)
-    }
+    
 
 
 
