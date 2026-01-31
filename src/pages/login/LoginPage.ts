@@ -31,9 +31,4 @@ export class LoginPage {
         await this.page.getByLabel('Close').click();
     }
 
-    
-
-
-
-
 }

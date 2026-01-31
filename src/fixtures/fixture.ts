@@ -2,6 +2,8 @@ import { test as base, expect } from "@playwright/test"
 import { LoginPage } from "../pages/login/LoginPage"
 import { BookingPage } from "../pages/booking/BookingPage"
 
+
+
 type MyFixtures = {
     login: LoginPage
     bookingPage: BookingPage

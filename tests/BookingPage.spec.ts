@@ -10,6 +10,6 @@ test('Booking Page', async ({ page, bookingPage, login}) => {
 
 
 
-});
+})
 
 
